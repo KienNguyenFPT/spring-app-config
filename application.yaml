@@ -6,3 +6,7 @@ eureka:
     register-with-eureka: true
   instance:
     prefer-ip-address: false
+
+spring:
+  zipkin:
+    baseUrl: http://zipkin-svc:9411
